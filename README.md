@@ -1,4 +1,4 @@
-401 JS --  Lab num topic
+401 JS --  Lab 06 wack chat
 ===
 
 ## Submission Instructions
@@ -14,6 +14,7 @@
 * Students will understand work with Node.js EventEmitters
 
 ## Resources  
+* [Nodejs net docs](https://nodejs.org/api/net.html)
 
 ## Requirements  
 #### Configuration  
