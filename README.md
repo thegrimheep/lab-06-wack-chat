@@ -32,16 +32,16 @@ Your lab directory must include
 * Create a **server.js** that start a TCP server using the `net` module
 * create a **lib/parse-message.js** module for parsing client request
  * if a client sends a message that starts with `/nick some_name` 
-   * change thier nickname to the name they have provided
+   * change their nickname to the name they have provided
  * if a client sends a message that starts with `/dm some_name some message`
-   * send thier message to the client with the some_name nickname
+   * send their message to the client with the some_name nickname
  * if a client sends a message that starts with `/users`
    * send the requester the usernames of all connected users 
  * if a clinet sends a message that starts with `/troll some message`
    * send their message to all users 10 times
  * if a client sends a message that starts with `/ban user_name`
    * logout the user with the user_name (close their connection, and remove from sockets array)
- * otherwise send thier message to all clients
+ * otherwise send their message to all clients
 * when a user speaks their nickname should be printed
  * **i.e.** `teapot: Sup Hacker?`
 
