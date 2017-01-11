@@ -18,7 +18,7 @@ server.on('connection', function(socket){
       return parse.nickCommand(message, socket);
 
     if(message.startsWith('/dm'))
-      return parse.dmCommand(message, sockets);
+      return parse.dmCommand(message, sockets, socket);
 
     if(message.startsWith('/user'))
       return parse.userCommand(sockets, socket);

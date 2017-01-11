@@ -61,3 +61,5 @@ Your lab directory must include
 #Documentation
 * Programming TCP sockets in Node requires the net module, which is an asynchronous wrapper for network programming. Using net.createServer() we created a chatroom and
 used functions to make the chatroom serviceable. The code creates a simple client which connects to the server, sends a message to server, and disconnects after getting a response from the server. Read the comments to follow the code.
+* Using telnet go into localhost:3000 then you may use commands /dm to send a message to a direct user, use /nick to set up a name, and
+I will let you see what /ban and /troll do as commands. 
